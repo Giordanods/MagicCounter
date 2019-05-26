@@ -11,7 +11,7 @@ export default class App extends React.Component {
           <Jogador corFundo="gray"/>
         </View>
         <View style={styles.linha}>
-          <Jogador />
+          <Jogador corFundo="red" />
         </View>
       </View>
     );
